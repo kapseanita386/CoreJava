@@ -17,8 +17,8 @@ public class NewBookLibrary
 		float fine per extra day;
 		float Total fine; */
 		
-		System.out.println("Enter Book Title"+Title);
-		System.out.println("Enter Author Name" +AuthorName);
+		System.out.println("Book Title "+Title);
+		System.out.println("Author Name " +AuthorName);
 		//System.out.println("Publication Year"+Year of Publication);
 	}
 	
