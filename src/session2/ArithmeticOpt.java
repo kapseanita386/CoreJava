@@ -7,13 +7,12 @@ public class ArithmeticOpt
 
 {
 	
-	int pen=10 ,books=15,PriceOfPen=25,PriceOfBook=75;
-	
+	int pen=10 ,books=10,PriceOfPen=10,PriceOfBook=10;
 	float discount=5;
-	int TotalPriceOfPen = 25*10;
-    int TotalPriceOfBook = 75*15;
+	int TotalPriceOfPen = pen*PriceOfPen;
+    int TotalPriceOfBook = books*PriceOfBook;
     float Total = (TotalPriceOfPen+TotalPriceOfBook);
-    float Discountamount = (discount/100)*Total;
+    float Discountamount = (Total*discount)/100;
     float finalAmount= Total-Discountamount;
 	
 	System.out.println("Number of Pens is = "+pen);
