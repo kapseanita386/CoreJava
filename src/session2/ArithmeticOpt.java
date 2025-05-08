@@ -8,7 +8,7 @@ public class ArithmeticOpt
 {
 	
 	int pen=10 ,books=10,PriceOfPen=10,PriceOfBook=10;
-	float discount=5;
+	float discount=10;
 	int TotalPriceOfPen = pen*PriceOfPen;
     int TotalPriceOfBook = books*PriceOfBook;
     float Total = (TotalPriceOfPen+TotalPriceOfBook);
