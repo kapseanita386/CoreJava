@@ -5,9 +5,9 @@ public class SportsDayEvent {
 	public static void main(String[] args) 
 	{
 	    int athlete1=20;
-	    int athlete2=30;
+	    int athlete2=50;
 	   
-	   if (athlete1>athlete2)
+	   if (athlete1<athlete2)
 	    {
 	    	System.out.println("Athlete1 is winner");
 	    }
