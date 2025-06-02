@@ -1,5 +1,5 @@
 package loopingStatements;
-
+//WAP to find 1 to 10 numbers in decending 
 public class DecendingOrderNumbers {
 
 	public static void main(String[] args) 
